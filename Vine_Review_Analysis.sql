@@ -48,15 +48,24 @@ WHERE (vine = 'N');
 SELECT * FROM vine_no;
 
 -- STEP 5. Count the number of 5-star review in vine_yes and vine_no
+-- count the total number of reviews 
+SELECT COUNT(review_id)
+FROM vine_table;
+-- TOTAL REVIEW: 2,302,174
+
 -- counting the number of 5-star reviews with vine = 'Y'
 SElECT COUNT(vine)
 FROM vine_yes
 WHERE (star_rating = 5);
+-- TOTAL VINE = 'Y': 56
 
 -- counting the number of 5-star reviews with vine = 'N'
 SElECT COUNT(vine)
 FROM vine_no
 WHERE (star_rating = 5);
+-- TOTAL VINE = 'N': 20,996
+
+
 
 
 
