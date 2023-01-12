@@ -17,7 +17,7 @@ The purpose of this analysis was to break down the amazon reviews of Outdoor equ
 
 ### Vine Reviews VS Non-Vine Reviews
 
-INSERT VINE_TABLE.PNG
+<img width="483" alt="vine_table" src="https://user-images.githubusercontent.com/112291888/211958592-5cb5eabf-6fba-480e-9fdd-fba0ae99cd73.png">
 
 The table that we are the most interested in for this analysis is the vine_table which selects the review_id, star_rating, helpful_votes, total_votes, vine, and verified_purchase columns from the main dataset. This is the table that was qeuried for the rest of this analysis.
 
