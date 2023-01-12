@@ -53,20 +53,29 @@ SELECT COUNT(review_id)
 FROM vine_table;
 ----- TOTAL REVIEW: 2,302,174 -----
 
+-- counting the number of review with vine = 'Y'
+SElECT COUNT(vine)
+FROM vine_yes;
+----- TOTAL VINE REVIEWS: 107 -----
+
+-- counting the number of reviews with vine = 'N'
+SElECT COUNT(vine)
+FROM vine_no;
+----- TOTAL NON-VINE REVIEWS: 39,850 -----
+
 -- counting the number of 5-star reviews with vine = 'Y'
 SElECT COUNT(vine)
 FROM vine_yes
 WHERE (star_rating = 5);
------ TOTAL VINE = 'Y': 56 -----
+----- TOTAL 5-STAR REVIEWS W/VINE = 'Y': 56 -----
 
 -- counting the number of 5-star reviews with vine = 'N'
 SElECT COUNT(vine)
-into 
 FROM vine_no
 WHERE (star_rating = 5);
------ TOTAL VINE = 'N': 20,996 -----
+----- TOTAL 5-STAR REVIEWS W/VINE = 'N': 20,996 -----
 
--- get the parcentage of 5-star reviews to the total number of reviews that did not use vine
+-- get the percentage of 5-star reviews to the total number of reviews that did not use vine
 ------------ TOTAL_REVIEWS/5_STAR_NO_VINE_REVIEWS * 100 ------------
 -- use this to create the 5-star column from the no_vine table
 SELECT star_rating
