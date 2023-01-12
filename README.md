@@ -13,6 +13,8 @@ The purpose of this analysis was to break down the amazon reviews of Outdoor equ
 
 ## Results
 
+<a href="https://github.com/cmason1996/Amazon_Vine_Analysis/tree/main/Images" target="_blank">Click here to view images of the data tables</a>
+
 ### Vine Reviews VS Non-Vine Reviews
 
 ## Summary
