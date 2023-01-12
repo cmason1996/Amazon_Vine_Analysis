@@ -23,7 +23,7 @@ The table that we are the most interested in for this analysis is the vine_table
 
 <a href="https://github.com/cmason1996/Amazon_Vine_Analysis/blob/main/Amazon_Review_Analysis.sql" target="_blank">Click here to view the SQL queries</a>
 
-INSERT STEP_5_COUNT.PNG
+<img width="452" alt="step_5_counts" src="https://user-images.githubusercontent.com/112291888/211958697-a92952ce-865c-4c74-bb4d-afc047dd1577.png">
 
 * By using a SQL select query we were able to determine from the data that there were 107 reviews left by individuals in the Amazon Vine program and 39,850 reviews left by individuals not in the Amazon Vine program.
 
