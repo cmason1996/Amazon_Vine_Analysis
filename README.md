@@ -29,7 +29,9 @@ The table that we are the most interested in for this analysis is the vine_table
 
 * By using an addition select statement, this time with a where condition, we determine that there are only 56 5-star reviews from individuals in the Vine program while there are 20,996 5-star reviews left by individuals not in the Vine program.
 
-INSERT IMAGES OF PERCENTAGES
+<img width="475" alt="step_5_no_vine" src="https://user-images.githubusercontent.com/112291888/211958810-82e1266e-0f16-4a3a-a784-413ff5dcdc10.png">
+
+<img width="481" alt="step_5_yes_vine" src="https://user-images.githubusercontent.com/112291888/211958827-5d13d529-de93-4f6f-b149-e30341518389.png">
 
 * To find the percentages of 5-star reviews, both with and without vine, to the total number of reviews we had to do some fancy SQL work. First we needed to create temporary tables to hold the data we wanted to complete then merge them to run the calculations on them. In doing this we see that the number of 5-star reviews that did not use Vine compared to the total number of reviews is 48.206%. While the number of 5-star reviews that did use Vine compared to the total number of reviews is much smaller at 00.129%.
 
